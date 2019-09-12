@@ -11,10 +11,7 @@ public class FirstServlet extends HttpServlet {
     @Override
     protected void doGet(HttpServletRequest req, HttpServletResponse resp)
             throws ServletException, IOException {
-        String firstName = req.getParameter("fname");
-        String lastName = req.getParameter("lname");
-        String fullName = firstName + lastName;
-        System.out.println("My name is " + fullName);
+        doPost(req, resp);
     }
 
     //doPost
