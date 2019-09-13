@@ -7,7 +7,7 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="3f4858cf-cbf2-4d63-b28c-fc70e0088144" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/src/main/webapp/test.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/webapp/output.jsp" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/main/java/com/izdebski/FirstServlet.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/izdebski/FirstServlet.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/target/JspAndServlet/WEB-INF/classes/com/izdebski/FirstServlet.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/JspAndServlet/WEB-INF/classes/com/izdebski/FirstServlet.class" afterDir="false" />
@@ -24,6 +24,7 @@
       <list>
         <option value="Class" />
         <option value="HTML File" />
+        <option value="Jsp File" />
       </list>
     </option>
   </component>
@@ -153,7 +154,7 @@
       <option name="presentableId" value="Default" />
       <updated>1568291958179</updated>
       <workItem from="1568291970648" duration="11708000" />
-      <workItem from="1568355662587" duration="2061000" />
+      <workItem from="1568355662587" duration="3080000" />
     </task>
     <servers />
   </component>

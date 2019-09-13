@@ -1,5 +1,6 @@
 package com.izdebski;
 
+import javax.servlet.RequestDispatcher;
 import javax.servlet.ServletException;
 import javax.servlet.http.HttpServlet;
 import javax.servlet.http.HttpServletRequest;
@@ -9,8 +10,6 @@ import java.io.PrintWriter;
 
 public class FirstServlet extends HttpServlet {
 
-
-
     //doPost
     @Override
     protected void doPost(HttpServletRequest req, HttpServletResponse resp)
@@ -18,6 +17,7 @@ public class FirstServlet extends HttpServlet {
         String firstName = req.getParameter("fname");
         String lastName = req.getParameter("lname");
         String fullName = firstName + lastName;
-        resp.sendRedirect("test.html");
+        RequestDispatcher dispatcher = req.getRequestDispatcher("/output.jsp");
+        dispatcher.forward(req, resp);
     }
 }
