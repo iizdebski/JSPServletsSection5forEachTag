@@ -6,20 +6,19 @@
 </head>
 <body>
 
-    <table border="1">
-        <tr>
-            <th>Name</th>
-            <th>Age</th>
-            <th>Location</th>
-        </tr>
-        <c:forEach items = "${list}" var = "student">
-        <tr>
-            <td>${student.name}</td>
-            <td>${student.age}</td>
-            <td>${student.location}</td>
-        </tr>
-    </c:forEach>
-    </table>
+<c:set var = "score" value="75"></c:set>
+
+<c:choose>
+
+    <c:when test="${score > 50}">
+        <p>Score is greater than 50</p>
+    </c:when>
+
+    <c:otherwise>
+    <p>Score is less than 100</p>
+    </c:otherwise>
+</c:choose>
+
 
 </body>
 </html>
