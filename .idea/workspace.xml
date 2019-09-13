@@ -7,8 +7,8 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="3f4858cf-cbf2-4d63-b28c-fc70e0088144" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/Deleted code" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Deleted code" beforeDir="false" afterPath="$PROJECT_DIR$/Deleted code" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/main/webapp/output.jsp" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/webapp/output.jsp" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/target/JspAndServlet/output.jsp" beforeDir="false" afterPath="$PROJECT_DIR$/target/JspAndServlet/output.jsp" afterDir="false" />
     </list>
@@ -197,7 +197,7 @@
       <option name="presentableId" value="Default" />
       <updated>1568291958179</updated>
       <workItem from="1568291970648" duration="11708000" />
-      <workItem from="1568355662587" duration="16981000" />
+      <workItem from="1568355662587" duration="21209000" />
     </task>
     <servers />
   </component>

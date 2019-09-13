@@ -14,3 +14,32 @@ from output.jsp
 
 </body>
 </html>
+
+
+
+from output.jsp
+
+<%@ taglib uri ="http://java.sun.com/jsp/jstl/core" prefix ="c" %>
+<%@ page contentType="text/html;charset=UTF-8" language="java" %>
+<html>
+<head>
+    <title>Title</title>
+</head>
+<body>
+
+<c:set var = "score" value="75"></c:set>
+
+<c:choose>
+
+    <c:when test="${score > 50}">
+        <p>Score is greater than 50</p>
+    </c:when>
+
+    <c:otherwise>
+    <p>Score is less than 100</p>
+    </c:otherwise>
+</c:choose>
+
+
+</body>
+</html>
