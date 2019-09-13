@@ -9,6 +9,8 @@ import java.io.PrintWriter;
 
 public class FirstServlet extends HttpServlet {
 
+
+
     //doPost
     @Override
     protected void doPost(HttpServletRequest req, HttpServletResponse resp)
@@ -16,7 +18,6 @@ public class FirstServlet extends HttpServlet {
         String firstName = req.getParameter("fname");
         String lastName = req.getParameter("lname");
         String fullName = firstName + lastName;
-        PrintWriter writer = resp.getWriter();
-        writer.println("<html><body><h1>My name is "+fullName+"</h1></body></html>");
+        resp.sendRedirect("test.html");
     }
 }

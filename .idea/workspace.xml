@@ -7,11 +7,11 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="3f4858cf-cbf2-4d63-b28c-fc70e0088144" name="Default Changelist" comment="">
+      <change afterPath="$PROJECT_DIR$/src/main/webapp/test.html" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/pom.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/main/java/com/izdebski/FirstServlet.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/izdebski/FirstServlet.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/webapp/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/webapp/index.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/com/izdebski/FirstServlet.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/JspAndServlet/WEB-INF/classes/com/izdebski/FirstServlet.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/JspAndServlet/WEB-INF/classes/com/izdebski/FirstServlet.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/izdebski/FirstServlet.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/com/izdebski/FirstServlet.class" afterDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
@@ -23,6 +23,7 @@
     <option name="RECENT_TEMPLATES">
       <list>
         <option value="Class" />
+        <option value="HTML File" />
       </list>
     </option>
   </component>
@@ -46,6 +47,7 @@
   <component name="ProjectId" id="1QjlbXuKzbpXuze9lHpEavPKaso" />
   <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
   <component name="PropertiesComponent">
+    <property name="DefaultHtmlFileTemplate" value="HTML File" />
     <property name="SHARE_PROJECT_CONFIGURATION_FILES" value="true" />
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="aspect.path.notification.shown" value="true" />
@@ -150,7 +152,8 @@
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
       <updated>1568291958179</updated>
-      <workItem from="1568291970648" duration="10249000" />
+      <workItem from="1568291970648" duration="11708000" />
+      <workItem from="1568355662587" duration="2061000" />
     </task>
     <servers />
   </component>
@@ -162,7 +165,9 @@
       <map>
         <entry key="MAIN">
           <value>
-            <State />
+            <State>
+              <option name="COLUMN_ORDER" />
+            </State>
           </value>
         </entry>
       </map>
