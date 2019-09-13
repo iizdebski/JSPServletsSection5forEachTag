@@ -22,5 +22,12 @@
 
 <a href="<c:url value = "/index.html"></c:url>">Click here</a>
 
+<c:forEach items = "${list}" var = "student">
+    <p>Student Name = ${student.name}</p>
+    <p>Student Age = ${student.age}</p>
+    <p>Student Location = ${student.location}</p>
+    <hr/>
+</c:forEach>
+
 </body>
 </html>
