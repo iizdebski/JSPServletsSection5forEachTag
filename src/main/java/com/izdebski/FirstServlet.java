@@ -32,14 +32,19 @@ public class FirstServlet extends HttpServlet {
         student.setName("Monica");
         student.setAge(25);
         student.setLocation("USA");
+        list.add(student);
 
+        student = new Student();
+        student.setName("Michael");
+        student.setAge(30);
+        student.setLocation("Japan");
         list.add(student);
         req.setAttribute("list", list);
 
-
-
         String firstName = req.getParameter("fname");
+
         String lastName = req.getParameter("lname");
+
         String fullName = firstName + lastName;
 
         String[] countries = {"India", "Japan", "China", "America", "South Africa"};
