@@ -8,8 +8,9 @@
   <component name="ChangeListManager">
     <list default="true" id="3f4858cf-cbf2-4d63-b28c-fc70e0088144" name="Default Changelist" comment="">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/izdebski/FirstServlet.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/izdebski/FirstServlet.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/webapp/output.jsp" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/webapp/output.jsp" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/target/JspAndServlet/WEB-INF/classes/com/izdebski/FirstServlet.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/JspAndServlet/WEB-INF/classes/com/izdebski/FirstServlet.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/JspAndServlet/output.jsp" beforeDir="false" afterPath="$PROJECT_DIR$/target/JspAndServlet/output.jsp" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/target/classes/com/izdebski/FirstServlet.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/com/izdebski/FirstServlet.class" afterDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
@@ -68,7 +69,7 @@
       </list>
     </option>
   </component>
-  <component name="RunManager">
+  <component name="RunManager" selected="Tomcat Server.JspAndServlet">
     <configuration name="JspAndServlet" type="#com.intellij.j2ee.web.tomcat.TomcatRunConfigurationFactory" factoryName="Local" APPLICATION_SERVER_NAME="Tomcat 9.0.20" ALTERNATIVE_JRE_ENABLED="false">
       <option name="UPDATING_POLICY" value="restart-server" />
       <deployment>
@@ -141,6 +142,50 @@
         </option>
       </method>
     </configuration>
+    <configuration name="output.jsp" type="#com.intellij.j2ee.web.tomcat.TomcatRunConfigurationFactory" factoryName="Local" temporary="true" APPLICATION_SERVER_NAME="Tomcat 9.0.20" ALTERNATIVE_JRE_ENABLED="false">
+      <option name="OPEN_IN_BROWSER_URL" value="http://localhost:8080/output.jsp" />
+      <deployment>
+        <artifact name="JspAndServlet:war">
+          <settings>
+            <option name="CONTEXT_PATH" value="/JspAndServlet_war" />
+          </settings>
+        </artifact>
+      </deployment>
+      <server-settings>
+        <option name="BASE_DIRECTORY_NAME" value="output_jsp_JspAndServlet" />
+      </server-settings>
+      <predefined_log_file enabled="true" id="Tomcat" />
+      <predefined_log_file enabled="true" id="Tomcat Catalina" />
+      <predefined_log_file id="Tomcat Manager" />
+      <predefined_log_file id="Tomcat Host Manager" />
+      <predefined_log_file id="Tomcat Localhost Access" />
+      <ConfigurationWrapper VM_VAR="JAVA_OPTS" RunnerId="Run">
+        <option name="USE_ENV_VARIABLES" value="true" />
+        <STARTUP>
+          <option name="USE_DEFAULT" value="true" />
+          <option name="SCRIPT" value="" />
+          <option name="VM_PARAMETERS" value="" />
+          <option name="PROGRAM_PARAMETERS" value="" />
+        </STARTUP>
+        <SHUTDOWN>
+          <option name="USE_DEFAULT" value="true" />
+          <option name="SCRIPT" value="" />
+          <option name="VM_PARAMETERS" value="" />
+          <option name="PROGRAM_PARAMETERS" value="" />
+        </SHUTDOWN>
+      </ConfigurationWrapper>
+      <method v="2">
+        <option name="Make" enabled="true" />
+        <option name="BuildArtifacts" enabled="true">
+          <artifact name="JspAndServlet:war" />
+        </option>
+      </method>
+    </configuration>
+    <recent_temporary>
+      <list>
+        <item itemvalue="Tomcat Server.output.jsp" />
+      </list>
+    </recent_temporary>
   </component>
   <component name="SvnConfiguration">
     <configuration />
@@ -153,7 +198,7 @@
       <option name="presentableId" value="Default" />
       <updated>1568291958179</updated>
       <workItem from="1568291970648" duration="11708000" />
-      <workItem from="1568355662587" duration="6996000" />
+      <workItem from="1568355662587" duration="9088000" />
     </task>
     <servers />
   </component>
