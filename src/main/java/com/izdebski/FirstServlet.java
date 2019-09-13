@@ -19,10 +19,16 @@ public class FirstServlet extends HttpServlet {
     @Override
     protected void doPost(HttpServletRequest req, HttpServletResponse resp)
             throws ServletException, IOException {
+        Student student = new Student();
+        student.setName("Ivan Petrenko");
+        student.setAge(34);
+        student.setLocation("Ternopil");
+
         String firstName = req.getParameter("fname");
         String lastName = req.getParameter("lname");
         String fullName = firstName + lastName;
         req.setAttribute("name", fullName);
+        req.setAttribute("student", student);
         RequestDispatcher dispatcher = req.getRequestDispatcher("/output.jsp");
         dispatcher.forward(req, resp);
     }
